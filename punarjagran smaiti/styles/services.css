@@ -1487,3 +1487,6 @@ img
     width: 86px;
     margin-right: 40px;
 }
+li a{
+   white-space:nowrap;
+}

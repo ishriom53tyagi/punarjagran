@@ -224,7 +224,7 @@ section
 }
 .parallax-window
 {
-    min-height: 400px;
+    min-height: 200px;
     background: transparent;
 }
 .parallax_background
@@ -254,7 +254,7 @@ section
 {
 	width: 137px;
 	height: 54px;
-	background: #1b1b1b;
+	background: #0a0a0a;
 	overflow: hidden;
 }
 .button a
@@ -362,12 +362,10 @@ section
 {
 	width: 100%;
 	z-index: 2;
-	background-color: #eaf6f6;
 }
 .header_top_content
 {
 	height: 91px;
-	    margin: 0 -37px;/*here we addd addtional line to give left and right margin */
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -417,24 +415,24 @@ section
 }
 .header_top_phone
 {
-	margin-left: 344px;
+	margin-left: 44px;
 }
 .header_top_phone i
 {
 	font-size: 22px;
-	color: #FFFF;
-	vertical-align: middle;
-	transform: translateY(-1px);
-	padding-right: 25px;
+    color: #FFFF;
+    vertical-align: middle;
+    transform: translateY(-1px);
+    padding-right: 25px;
     padding-top: 35px;
 }
 .header_top_phone span
 {
 	font-size: 16px;
 	font-weight: 600;
-	color: #0e0e0e;
+	color: #404040;
 	margin-left: 3px;
-	vertical-align: middle;
+	vertical-align: bottom;
 }
 .hamburger
 {
@@ -466,7 +464,7 @@ section
 .header_nav_container
 {
 	z-index: 1;
-	background:#565C5C;
+	background: #565C5C;
 }
 .header_nav_content
 {
@@ -481,13 +479,12 @@ section
 	height: 100%;
 }
 .main_nav ul li
-{#565C5C
+{
 	position: relative;
 }
 .main_nav ul li:not(:last-child)
 {
 	margin-right: 70px;
-
 }
 .main_nav ul li a
 {
@@ -498,7 +495,7 @@ section
 	font-weight: 600;
 	color: #FFFFFF;
 	z-index: 1;
-	text-transform: uppercase;
+	text-transform: 
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1173,7 +1170,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 4px;
-	background: #ff9933;
+	background: #32c69a;
 	content: '';
 }
 .dept_title
@@ -1199,7 +1196,7 @@ section
 }
 .dept_link a:hover
 {
-	color: #ff9933;
+	color: #32c69a;
 }
 .dept_slider_nav
 {
@@ -1213,7 +1210,7 @@ section
 	right: -106px;
 	width: 42px;
 	height: 42px;
-	background: #ff9933;
+	background: #32c69a;
 	text-align: center;
 	cursor: pointer;
 }
@@ -1329,7 +1326,7 @@ section
 }
 .accordion.active
 {
-	background: #bfbbb7;
+	background: #0a0a0a;
 	color: #FFFFFF;
 }
 .accordion.active::after
@@ -1499,7 +1496,7 @@ section
 }
 .footer_social
 {
-	margin-top: 30px;
+	margin-top: 25px;
 }
 .footer_social ul li:not(:last-child)
 {
@@ -1507,11 +1504,10 @@ section
 }
 .footer_social ul li a i
 {
-	color: #FFFF;
+	color: #FFFFFF;
 }
 .copyright
 {
-	float:right;
 	font-size: 12px;
 	font-style: italic;
 	color: rgba(255,255,255,0.48);
@@ -1701,83 +1697,20 @@ section
 	vertical-align: middle;
 	font-size: 20px;
 	color: #32c69a;
-
 }
-/*this is for the phone purpose only */
-
-.footer_links ul li a:hover
+.logo img
 {
-	color: #32c69a;
+	width:21.5%;
 }
-.footer_phone span
+
+.post-author-tag-image img
+
 {
-	font-size: 14px;
-	font-weight: 600;
-	color: #32c69a;
+	border-radius:50%;
+	width:70px;
+	height:70px;
 }
-.footer_phone i
-{
-	display: inline-block;
-	vertical-align: middle;
-	font-size: 20px;
-	color: #32c69a;
+/* this is new work for about us and work for us to make thing in a line */
+li a{
+   white-space:nowrap;
 }
-/* here is image tag problem */
-	.post-author-tag-image img {
-    object-fit: cover;
-    position: absolute;
-    top: 5px;
-    left: -11.5px;
-    height: 100%;
-    min-width: 100%;
-}
-
-
-.post-author-tag-image {
-    overflow: hidden;
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    position: relative;
-    border: 2px solid #fff;
-     top: 5px;
-    left: -11.5px;
-}
-
-.post-author-tag-image-container {
-    position: relative;
-    width: 64px;
-    height: 64px;
-    margin-right: 1.5rem;
-}
-.post-author-tag {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    margin-top: 3rem;
-}
-
-.post-author-tag__image-container::before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: calc(100% + 5px);
-    height: calc(100% + 5px);
-    border-radius: 50%;
-    border: 2px solid #ff7a59;
-}
-
-.author-tag
-{
-	padding-top:0px;
-}
-
-/*logo addition before the images */
-img
-{
-width:86px;
-margin-right:40px;
-}
-
-/*here goes our footer experiment*/
