@@ -421,16 +421,16 @@ section
 }
 .header_top_phone 
 {
-	margin-left:344px;
+	margin-left:44px;
 }
 .header_top_phone i
 {
-	font-size: 22px;
-    color: #FFFF;
-    vertical-align: middle;
-    transform: translateY(-1px);
-    padding-right: 25px;
-    padding-top: 35px;
+	font-size: 35px;
+	color: #FFFF;
+	vertical-align: middle;
+	transform: translateY(-1px);
+	padding-right: 29px;
+    padding-top: 6px;
 }
 .header_top_phone span
 {
@@ -490,14 +490,14 @@ section
 }
 .main_nav ul li:not(:last-child)
 {
-	margin-right: 70px;
+	margin-right: 45px;
 }
 .main_nav ul li a
 {
 	display: block;
 	position: relative;
 	height: 100%;
-	font-size: 13px;
+	font-size: 15.3px;
 	font-weight: 600;
 	color: #FFFFFF;
 	z-index: 1;
@@ -1112,7 +1112,8 @@ section
 }
 .footer_social
 {
-	margin-top: 30px;
+	margin-top: 0px;
+	margin-right:-90px;
 }
 .footer_social ul li:not(:last-child)
 {
@@ -1482,11 +1483,13 @@ section
 	color: #FFFFFF;
 	line-height: 42px;
 }
-img
-{
-    width: 86px;
-    margin-right: 40px;
-}
+
 li a{
    white-space:nowrap;
+}
+
+.logo img
+{
+    width: 88.5%;
+    margin-left:-80px;
 }
